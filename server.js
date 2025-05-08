@@ -22,7 +22,7 @@ connectDB();
 // Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/contacts', contactRoutes);  // Use for contact routes
-app.use('/auth', authRoutes);  // Define another route as needed
+//app.use('/auth', authRoutes);  // Define another route as needed
 app.use('/api/users', userRoutes);
 
 
